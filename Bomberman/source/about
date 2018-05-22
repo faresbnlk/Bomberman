@@ -1,0 +1,44 @@
+
+
+BIENVENUE
+——————---
+
+Bonjour et Bienvenue sur notre jeu : BOMBERMAN ! le joueur incarne un poseur de bombes, le but c'est exploser l'adversaire/ennemi pour gagner...
+
+1. INSTALLATION & EXECUTION:
+————————-------------------
+-> La compilation et l'installation devraient être vraiment simples, il suffit de se rendre au répertoire  " source " puis taper "make" sur votre invite de commande et vous obtiendrez le fichier binaire.
+-> exécutez-le simplement en tapant ./bomberman.
+
+2. JOUER :
+—————---
+-> Si vous souhaitez jouer directement : choisissez 1.
+-> 2 pour sélectionner un mode (Le jeu possède trois modes : (easy, medium et advanced).
+
+3. CONSIGNES :
+————————-----
+
+-> Les Commandes : 
+	- Joueur 1 : 	# Gauche : "Q" || Droite : "D" || Haut : "Z" || Bas : "B"
+					# Poser une bombe : " w "
+
+	- Joueur 1 : 	# Gauche : "←" || Droite : "→" || Haut : "↑" || Bas : "↓"
+					# Poser une bombe : " Espace "
+
+							
+-> Power Up :
+ 
+	Cette partie du jeux permet au joueur de passer à état supérieur : 
+
+	# la vitesse : Le joueur ramassant un  « + » se déplacera plus rapide pendant 15 s.
+
+	# la portée d’explosion : Le joueur ramassant une  « * » la portée d’explosion 
+		de ses bombes sera plus large de 2 cases pendant 15 s.
+
+	# le nombre de bombes : Le joueur ramassant un  « @ » le nombre de bombes posées en même-temps passe de 3 à 5 pendant 15 s.
+
+
+-> Les mures : 
+	chaque mur est représenté par un chiffre de 1 à 9 correspondant au nombre explosion nécéssaire pour le détruire.
+
+

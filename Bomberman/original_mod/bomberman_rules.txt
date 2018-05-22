@@ -1,0 +1,64 @@
+******************************************** BOMBERMAN ********************************************
+
+Bomberman est un jeux vidéo 2D sur console shell réalisé par les étudiants de l'UPEC où les joueurs 
+incarnent des poseurs de bombes, le but étant de faire exploser les adversaires/ennemis pour gagner.
+
+
+L'UNIVERS :
+
+Chaque monde/labyrinthe est composé de blocs destructibles. Ils sont numérotés de "1" à "9". Les blocs 
+"0" représentant les limites physiques du jeux ne sont donc pas destructibles. Le nombre d'explosion
+nécessaire à la destruction d'un bloc est donné par le chiffre associé a se même bloc. Par exemple, un 
+bloc "3" nécessitera trois explostion pour être détruit. 
+
+
+LE GAMEPLAY : 
+
+Chaque joueur possède son propre jeu de commande. 
+
+Joueur 1 : 
+Commandes de déplacement : 
+							Haut : "Z"
+							Bas : "B"
+							Gauche : "Q"
+							Droite : "D"
+
+Poser Les bombes : 
+							Bombe : "Space"
+
+Joueur 2 : 
+Commandes de déplacement : 
+							Haut : "↑"
+							Bas : "↓"
+							Gauche : "←"
+							Droite : "→"
+
+Poser Les bombes : 
+							Bombe : "Enter"
+
+
+LES POWER UP :
+
+Le jeu propose un ensemble de bonus permettant d'améliorer les possibilités de son Bomberman. Ces bonus
+se trouvent la plupart du temps dans les blocs destructibles et apparaissent une fois ceux-ci détruits. 
+
+Bomb Up "@" : Ce bonus se présente sous la forme d'une bombe. Il augmente le nombre de bombes que peut 
+	      poser simultanément le bomberman passant ainsi de 3 à 5 bombes pendant 15 sec. 
+
+Fire Up "*" : Elle augmente la portée de l'explosion des bombes de deux cases pendant 15 sec.
+
+Speed Up "+" : Votre bomberman est équiper de patins à roulettes augmentant sa vitesse pendant 15 sec.
+
+
+LE BUT DU JEU : 
+
+Chaque bomberman possède trois vies. Pour gagner, il faut faire exploser les adversaires/ennemis. Vous 
+perdez une vie à chaque fois que vous ètes touché par une bombe ennemie. Vous gagnez quand votre 
+adversaire n'a plu de vie. 
+
+
+
+
+
+
+
